@@ -8,12 +8,13 @@
  
    <link rel="stylesheet" type="text/css" href="css/reset.css">
    <link rel="stylesheet" type="text/css" href="css/style.css">
+   
 
 </head>
  
  <body>
   
-  <div id="wrapper">
+  <div class="wrapper">
 
   <div class="header-container">
       <header>
@@ -28,26 +29,34 @@
    <div class="clearfix">
      <div class="main-container">
  
-        <div id= "about-container">
-          <h2>Contact</h2>
+        <div class= "about-container">
+          <h2>About Me</h2>
         </div>
 
-        <div id="main-bio">
-         
+        <div class="main-bio">
+            <form>
+              Name:<br>
+              <input type="text" name="name" value="John Smith">
+              <br>
+              Email:<br>
+              <input type="text" name="email" value="example@gmail.com">
+              <br>
+              Message:<br>
+              <textarea name="message" rows="15" cols="100"></textarea>
+              <br>
+              <button type="button" onclick="alert('Form has been submitted')">Submit</button>
+          </form>
 
-
-         
- 
-       </div>
-   </div>
+         </div>
+     </div>
 
   <div class="contact-container">
 
-      <div id="connect-container">
+      <div class="connect-container">
         <h3>Connect With Me</h3>
       </div>
 
-      <div id="contact-info">
+      <div class="contact-info">
 
       <a href="https://github.com/liotovar" target="_blank">
             <img src="images/github.png" alt="Github" height="75px" width="75px">
@@ -63,13 +72,13 @@
 
       </div>
     </div>
-
-      <div id= "footer-container">
+ 
+      <div class= "footer-container">
         © Copyright 2016 Lionel Tovar
       </div>
-  </div>
+    </div>
 
-</div>
+  </div>
  
  </body>
  
